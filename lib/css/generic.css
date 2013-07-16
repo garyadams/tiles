@@ -1,0 +1,12 @@
+.tile {
+	background: #333;
+	font: 14px Arial;
+	height: 40px;
+	width: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+.hero {
+	background: #000;
+}
