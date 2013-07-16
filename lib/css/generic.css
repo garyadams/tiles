@@ -1,12 +1,24 @@
+table {
+	margin: 0 auto;
+}
+
 .tile {
 	background: #333;
-	font: 14px Arial;
+	font: 12px Arial;
 	height: 40px;
 	width: 40px;
 	color: #fff;
 	text-align: center;
 }
 
+.rock {
+	background: red;
+}
+
 .hero {
 	background: #000;
+}
+
+#current {
+	text-align: center;
 }
