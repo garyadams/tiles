@@ -19,6 +19,10 @@ table {
 	background: #000;
 }
 
+#hp {
+	text-align: center;
+}
+
 #current {
 	text-align: center;
 }
