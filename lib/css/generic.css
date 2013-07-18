@@ -54,6 +54,6 @@ h1 {
 	margin-top: 20px;
 }
 
-#spawn-monster {
+#spawn-monster, #monster-overview {
 	font: bold 24px Arial;
 }
