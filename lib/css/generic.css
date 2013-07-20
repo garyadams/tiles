@@ -1,4 +1,9 @@
 /* Generic */
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
 table {
 	margin: 0 auto;
 }
@@ -16,6 +21,12 @@ table {
 	text-align: center;
 }
 
+#world {
+	float: left;
+	display: inline;
+	width: 900px;
+}
+
 /* Objects */
 .player {
 	background: blue;
@@ -30,25 +41,26 @@ table {
 }
 
 /* UI */
-#hud-container {
-	width: 1230px;
-	margin: 0 auto;
-}
-
-h1 {
-	margin: 10px 0 15px 0;
-}
-
-#hp {
+.ui-container {
 	float: left;
 	display: inline;
 }
 
-#current {
-	float: right;
-	display: inline;
+h1 {
+	margin: 0;
 }
 
+.hud-player {
+	width: 150px;
+}
+
+.hud-monster {
+	width: 130px;
+	display: none;
+	padding-left: 20px;
+}
+
+/* Tools */
 #tools-container {
 	text-align: center;
 	margin-top: 20px;

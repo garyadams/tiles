@@ -11,14 +11,19 @@
 
     <body>
 
-        <div id="hud-container">
-            <h1 id="hp">10 / 10</h1>
-            <h1 id="current">0,0</h1>
+        <div style="width: 1200px; margin: 30px auto 0 auto;">
+            <div class="ui-container hud-player">
+                <h1>Hero</h1><br />
+                <h1 id="hp">10 / 10</h1><br />
+                <h1 id="current">0,0</h1>
+            </div>
+            <div id="world"></div>
+            <div class="ui-container hud-monster">
+                
+            </div>
         </div>
 
         <div class="clear"></div>
-
-        <div id="world"></div>
 
         <div id="tools-container">
             <input id="spawn-monster" type="button" value="Spawn Monster" />
