@@ -36,6 +36,10 @@ table {
 	background: red;
 }
 
+.bomb {
+	background: yellow;
+}
+
 .rock {
 	background: #999;
 }
